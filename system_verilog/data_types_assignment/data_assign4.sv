@@ -25,7 +25,7 @@ module data_assign4;
         money_t = {5,10 };
 
       //Display the values of the memebers
-       $display(%0d",money_t);
+       $display("%0d",money_t);
     
       //Assign values using the memebers name
        money_t.coins = 7 ;
