@@ -14,8 +14,8 @@ int packet = 10;
 initial 
   begin  
     //Declaring the size of the dynamic array   
-    arr[i] = new[2];
-    arr[i] = new[3] (arr[i]);  
+    arr = new[2];
+    arr = new[3] (arr);  
 
     //Assigning values to the array 
     foreach(arr[i])
