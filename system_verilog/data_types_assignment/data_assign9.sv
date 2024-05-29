@@ -49,7 +49,6 @@ module array_module;
         bc = {a, b};
         ab = bc.unique();
         //ADD_CODE: Display the all three array elements
-        display();
         $display();
         end
     end
