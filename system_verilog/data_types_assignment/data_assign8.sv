@@ -78,7 +78,7 @@ end
  function void assign_odd_values_assoc(int arr[string]);
   int i;
   for(i = 50; i< 100; i++) begin
-    arr[$sformatf(%0d",i)] = (i -50) * 2 + 1;
+    arr[$sformatf("%0d",i)] = (i -50) * 2 + 1;
   end
  endfunction 
 
