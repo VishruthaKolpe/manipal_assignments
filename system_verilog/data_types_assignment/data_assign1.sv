@@ -46,7 +46,7 @@ initial
     //Expected output is size is 8
     // q_int = `{500,1000,200,400,600,700,900,0}
 
-
+    //finish
     #10 $finish;
   end
 endmodule
